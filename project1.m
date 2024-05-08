@@ -14,6 +14,7 @@ basePathYoung = 'dataset/young';
 parcelAtlas = load_untouch_nii('dataset/Schaefer_segmentation.nii.gz');
 wmMask = load_untouch_nii('dataset/MNI_WM_mask.nii.gz');
 wmMaskLogical = logical(wmMask.img);
+
 %% Task 1: for each healthy control (HC) extract the average fMRI signals for each parcel of the atlas
 % exclude voxel outside the individual mask
 %exclude voxel within the white matter task
