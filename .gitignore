@@ -1,0 +1,7 @@
+# files to ignore
+*.mat
+*.asv
+*.DS_Store
+
+# fodler to ignore
+dataset/
